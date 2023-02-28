@@ -1,0 +1,92 @@
+.child {
+    display: block !important;
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align:center;
+
+    /* display: flex; */
+    font-family: 'Inter', sans-serif;
+    font-size: xx-large;
+
+    /* justify-content: center; */
+    /* align-items: center; */
+    transition: transform 1s;
+    animation: transitionIn 3s;
+
+    /* margin-left: 35%;
+    margin-top: 100px; */
+    /* overflow-y: hidden; */
+    
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+.login-button {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.log-button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    left: 0px;
+    top: 0px;
+    transition: transform 1s;
+    animation: transitionIn 3s;
+}
+
+button:hover {
+    background-color: #c4d4ff;
+    transition: 0.2s;
+}
+
+.body {
+    height: 900px;
+    overflow-y: hidden;
+}
+
+.login {
+    margin-left: 170px;
+    overflow-y: hidden;
+    
+}
+
+.error {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-left: 46%;
+    margin-top: 100px;
+    display: block;
+    overflow-y: hidden;
+    font-size: x-large;
+    color: red;
+}
+
+.airplane {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 1s;
+    animation: transitionIn 3s;
+}

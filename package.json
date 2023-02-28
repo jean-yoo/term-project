@@ -1,0 +1,37 @@
+{
+  "name": "basic-hypermedia",
+  "version": "1.0.0",
+  "description": "basic hypermedia",
+  "author": "Jinoo Hong, Peter Li, Xinzhe Chai & Geireann Lindfield Roberts",
+  "license": "MIT",
+  "scripts": {
+    "start": "echo \"Make sure you have CD'd into either the client or server folder\"",
+    "test": "echo \"Make sure you have CD'd into either the client or server folder\"",
+    "lint": "echo \"Make sure you have CD'd into either the client or server folder\""
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.13",
+    "@chakra-ui/react": "^2.4.3",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@firebase/database": "^0.14.0",
+    "@mui/material": "^5.11.0",
+    "@react-google-maps/api": "^2.17.1",
+    "@tiptap/extension-underline": "^2.0.0-beta.199",
+    "element-ui": "^2.15.12",
+    "firebase": "^9.15.0",
+    "framer-motion": "^6.5.1",
+    "react-flow-renderer": "^10.3.17",
+    "react-google-autocomplete": "^2.7.1",
+    "react-icons": "^4.7.1",
+    "react-router-dom": "^6.4.3",
+    "recoil": "^0.7.6",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@types/google.maps": "^3.51.0",
+    "@types/jest": "^29.2.4",
+    "@types/react": "^18.0.26",
+    "@types/react-datepicker": "^4.8.0"
+  }
+}

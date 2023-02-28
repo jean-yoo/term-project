@@ -1,0 +1,61 @@
+.form {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: space-between;
+}
+
+.form-info {
+  width: 50%;
+}
+
+.globe {
+  width: 30rem;
+  height: auto;
+}
+
+#globeContainer {
+  object-fit: contain;
+}
+
+.book-text {
+  font-family: "Inter", sans-serif;
+  font-size: medium;
+}
+
+label {
+  width: 400px;
+  line-height: 26px;
+  margin-bottom: 10px;
+  display: inline-block;
+  text-align: right;
+}
+
+input {
+  height: 20px;
+  flex: 0 0 200px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.form-elt {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.note-input {
+  width: 195px;
+  height: 100px;
+  font-family: "arial";
+  font-size: 14px;
+}
+
+.submit-trip {
+  margin-left: 300px;
+  border-radius: 5px;
+  height: 40px;
+  width: 70px;
+  font-size: 15px;
+}

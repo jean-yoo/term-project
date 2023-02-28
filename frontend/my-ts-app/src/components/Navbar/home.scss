@@ -1,0 +1,27 @@
+.logo {
+    margin-left: 0px;
+    float: none;
+    display: inline-block;
+    position: fixed;
+    left: 20px;
+    top: 10px;
+    font-family: "Lucida Console", "Courier New";
+    overflow: hidden;
+}
+
+.other {
+    display: flex;
+    float: right;
+    margin-right: 50px;
+    overflow: hidden;
+}
+
+.page {
+    overflow-y: hidden;
+    position: static;
+}
+
+.menu-item:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.15rem;
+}

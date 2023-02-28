@@ -1,0 +1,18 @@
+.profile-header {
+    margin-left: 50px;
+}
+
+.text {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-left: 2%;
+    margin-top: 20px;
+    margin-bottom: 0%;
+    display: block;
+    overflow-y: hidden;
+}
